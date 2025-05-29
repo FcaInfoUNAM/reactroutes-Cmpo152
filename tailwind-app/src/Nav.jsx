@@ -33,3 +33,7 @@ function Nav (){
     );
 }
 export default Nav;
+
+// El método `map()` recorre el arreglo `navigation` y genera dinámicamente los elementos <li>,
+// asegurando que cada enlace se cree con sus respectivas propiedades (`href`, `title`, etc.).
+// Esto permite que el navbar sea flexible y que se actualice fácilmente con nuevos enlaces.
